@@ -1,10 +1,13 @@
 <script setup>
-import AppMenu from './AppMenu.vue'
 </script>
 
 <template>
-  <div class="p-8">
-    <AppMenu />
+  <div class="master">
     <router-view />
   </div>
 </template>
+<style>
+.master, body, html{
+  height: 100%;
+}
+</style>
